@@ -39,6 +39,7 @@ header h2,
 footer h2 {
   font-size: 24px;
   max-width: 300px;
+  padding: 0 10px;
   background-color: black;
   color: white;
   margin: 18px auto;
@@ -187,7 +188,7 @@ footer .one-third-container {
 @media screen and (max-width: 800px) {
   p,
   li {
-    font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1600 - 360)));
+    font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1800 - 360)));
   }
 
   #links a {
@@ -196,10 +197,12 @@ footer .one-third-container {
 }
 @media screen and (min-width: 360px) {
   h1 {
-    font-size: calc(20px + (44 - 20) * ((100vw - 360px) / (1600 - 360)));
+    font-size: calc(20px + (40 - 20) * ((100vw - 360px) / (1800 - 360)));
   }
+
+  h2,
   header h2,
   footer h2 {
-    font-size: calc(16px + (24 - 12) * ((100vw - 360px) / (1600 - 360)));
+    font-size: calc(16px + (24 - 16) * ((100vw - 360px) / (1800 - 360)));
   }
 }
